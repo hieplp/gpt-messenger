@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: messenger
+  mvc:
+    converters:
+      preferred-json-mapper: gson
+
+facebook:
+  verify-token: 123456
+  access-token: EAAR5xVPZCBuEBAPZCgakq9ZBejzmileVtr0x3Ig8ZCqcUlCnA2kTFFm72qc0dVA6IInEZAi8U2nC38fjlTR9C14ZBLuNV08broY30mFxvZB7ZAJxS2qrTPZClfI55ZA7WcV0S0pqAZBNk9XNkwtEkWh6gz0PIwc7umLlxglCZCzDMmjokjhWkkZCziV7LtmsRYDCe2U4ZD
+
+openai:
+  apiKey: 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
+  gpt-model: gpt-3.5-turbo
+  audio-model: whisper-1
+  http-client:
+    read-timeout: 3000
+    connect-timeout: 3000
+  urls:
+    base-url: https://api.openai.com/v1
+    chat-url: /chat/completions
+    create-transcription-url: /audio/transcriptions
