@@ -15,7 +15,9 @@ To run this project, you'll need the following:
 
 #### Setup
 
-1. Create a Facebook page and a Facebook app. Follow the Facebook Messenger Platform Getting Started guide for detailed
+1. Create a Facebook page and a Facebook app. Follow
+   the [Facebook Messenger Platform Getting Started](https://developers.facebook.com/docs/messenger-platform/get-started)
+   guide for detailed
    instructions.
 2. Clone the repository and open it in your favorite IDE.
 3. Update the following properties in the application.yml file with your Facebook app credentials:
